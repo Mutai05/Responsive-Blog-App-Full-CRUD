@@ -25,3 +25,19 @@
     --card-border-radius-4: 2rem;
     --card-border-radius-5: 5rem;
 }
+
+<!--==== GENERAL ====-->
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    appearance: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    
+}
