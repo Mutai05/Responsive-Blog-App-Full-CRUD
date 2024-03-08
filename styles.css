@@ -241,3 +241,18 @@ nav button {
     gap: 4rem;
     margin-bottom: 4rem;
 }
+
+/* Category Section */
+
+.category-buttons {
+    padding: 4rem;
+    border-top: 2px solid var(--color-gray-900);
+    border-bottom: 2px solid var(--color-gray-200);
+}
+
+.category-buttons-container {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
