@@ -217,3 +217,17 @@ nav button {
 }
 
 /* Featured Section */
+
+.featured {
+    margin-top: 8rem;
+}
+
+.featured-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.featured .post-thumbnail {
+    height: fit-content;
+}
