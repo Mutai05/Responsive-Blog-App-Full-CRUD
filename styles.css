@@ -380,6 +380,7 @@ footer ul:hover {
         align-items: flex-start;
         justify-content: center;
         gap: 0;
+        display: none;
     }
 
     .nav-items li {
