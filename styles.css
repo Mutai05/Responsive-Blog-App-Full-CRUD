@@ -401,4 +401,18 @@ footer ul:hover {
         display: flex;
         align-items: center;
     }
+
+    .nav-profile {
+        background: var(--color-gray-900);
+    }
+
+    .nav-profile ul {
+        top: 100%;
+        width: 100%;
+    }
+
+    .nav-profile .avatar {
+        margin-left: 2rem;
+        border: 0;
+    }
 }
