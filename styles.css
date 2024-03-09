@@ -464,6 +464,13 @@ footer ul:hover {
 .footer-container article {
     padding: 10px 0;
 }
+
+/* Blog Search */
+
+.search-bar-container {
+    width: 60%;
+}
+
 }
 
 /* MEDIA QUERIES SMALL DEVICES */
@@ -519,6 +526,12 @@ footer ul:hover {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
+    }
+
+    /* Blog Search */
+
+    .search-bar-container {
+        width: var(--container-width-md);
     }
 }
 
