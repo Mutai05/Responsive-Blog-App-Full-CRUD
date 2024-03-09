@@ -344,6 +344,17 @@ footer ul:hover {
     line-height: 1.7;
 }
 
+/* Category Posts */
+
+.category-title {
+    height: 15rem;
+    margin-top: 4.5rem;
+    background: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+    margin-bottom: 4rem;
+}
+
 
 /* MEDIA QUERIES MEDIUM DEVICES */
 
