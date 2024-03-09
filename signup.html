@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Multipage Blog Website</title>
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start of Nav -->
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html" class="nav-logo">MUTAI</a>
+        <ul class="nav-items">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+          <li class="nav-profile">
+            <div class="avatar">
+              <img src="./images/avatar1.jpg" />
+            </div>
+            <ul>
+              <li><a href="dashboard.html">Dashboard</a></li>
+              <li><a href="logout.html">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        <button id="open-nav-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-nav-btn"><i class="uil uil-times"></i></button>
+      </div>
+    </nav>
+    <!-- End of Nav -->
+
+    <!-- Form Section -->
+
+    <section class="form-section">
+      <div class="container form-section-container">
+        <h2>Sign Up</h2>
+        <div class="alert-message error">
+          <p>Error message</p>
+        </div>
+        <form action="">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="text" placeholder="Username" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Create Password" />
+          <input type="password" placeholder="Confirm Password" />
+          <div class="form-avatar">
+            <label for="avatar"></label>
+            <input type="file" id="avatar" />
+          </div>
+          <button type="submit">Sign Up</button>
+          <small>Already have an account? <a href="signin.html">Sign In</a></small>
+        </form>
+      </div>
+    </section>
+
+    <!-- End of form section -->
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="footer-socials">
+        <a href="#" target="_blank"><i class="uil uil-youtube"></i></a>
+        <a href="#" target="_blank"><i class="uil uil-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="uil uil-twitter"></i></a>
+        <a href="#" target="_blank"><i class="uil uil-linkedin"></i></a>
+      </div>
+      <div class="container footer-container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li>Wild Life</li>
+            <li>Art</li>
+            <li>Travel</li>
+            <li>Birds</li>
+            <li>Fruits</li>
+            <li>Music</li>
+          </ul>
+        </article>
+        <article>
+          <h4>Support</h4>
+          <ul>
+            <li>Online Support</li>
+            <li>Call Us</li>
+            <li>Email Us</li>
+            <li>Visit Us</li>
+            <li>Social Support</li>
+            <li>Faqs Page</li>
+          </ul>
+        </article>
+        <article>
+          <h4>Services</h4>
+          <ul>
+            <li>Social Media Marketing</li>
+            <li>Social Media Management</li>
+            <li>Web Design</li>
+            <li>Content Writing</li>
+            <li>Blog Management</li>
+            <li>Content Platform</li>
+          </ul>
+        </article>
+        <article>
+          <h4>Quick Links</h4>
+          <ul>
+            <li>Home Page</li>
+            <li>About Us</li>
+            <li>News and Articles</li>
+            <li>Our Services</li>
+            <li>Our Sitemap</li>
+            <li>Contact Us</li>
+          </ul>
+        </article>
+      </div>
+      <div class="footer-copyrights">
+        <small>Copyrights &copy; 2024 Mutai Kelvin Blog</small>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Javascript Link -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
