@@ -493,6 +493,12 @@ footer ul:hover {
     width: 60%;
 }
 
+/* Single Post */
+
+.singlepost {
+    margin-top: 4rem;
+}
+
 }
 
 /* MEDIA QUERIES SMALL DEVICES */
@@ -554,6 +560,13 @@ footer ul:hover {
 
     .search-bar-container {
         width: var(--container-width-md);
+    }
+
+    /* Single Post */
+
+    .singlepost-container {
+        background-color: transparent;
+        padding: 1rem 0;
     }
 }
 
