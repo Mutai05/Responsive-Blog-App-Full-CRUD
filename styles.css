@@ -328,9 +328,6 @@ footer ul:hover {
 @media screen and (max-width: 1024px) {
 
     /* General Styles */
-    body {
-        background-color: #da0f3f;
-    }
 
     .container {
         width: var(--container-width-md);
@@ -474,9 +471,6 @@ footer ul:hover {
 @media screen and (max-width: 600px) {
 
     /* General Styles */
-    body {
-        background-color: rgb(19, 90, 5);
-    }
 
     section {
         margin-top: 2rem;
@@ -526,4 +520,42 @@ footer ul:hover {
         text-align: center;
         gap: 2rem;
     }
+}
+
+
+/* Blog Page Search Section */
+
+.search-bar {
+    margin-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.search-bar-container {
+    position: relative;
+    width: 30rem;
+    background: var(--color-gray-900);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0.6rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    color: var(--color-gray-300);
+}
+
+.search-bar-container > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    background: transparent;
+    margin-left: 0.7rem;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.search-bar input::placeholder {
+    color: var(--color-gray-300);
 }
