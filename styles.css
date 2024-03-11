@@ -717,3 +717,8 @@ input, textarea, select {
 .btn.danger {
     background: var(--color-red);
 }
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+}
