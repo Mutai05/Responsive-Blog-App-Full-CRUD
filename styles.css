@@ -431,7 +431,26 @@ input, textarea, select {
 
 /* DASHBOARD */
 
+.dashboard {
+    margin: 6rem 1rem;
+}
 
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 14rem auto;
+    gap: 1rem;
+    background: var(--color-gray-900);
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.dashboard aside a {
+    background-color: var(--color-primary);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.6rem;
+}
 
 /* MEDIA QUERIES MEDIUM DEVICES */
 
