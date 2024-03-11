@@ -457,8 +457,13 @@ input, textarea, select {
 }
 
 .dashboard aside a:hover {
-    background: var(--color-gray-700);
+    background: var(--color-gray-300);
 }
+
+.dashboard aside a.active {
+    background-color: var(--color-gray-700);
+}
+
 
 /* MEDIA QUERIES MEDIUM DEVICES */
 
