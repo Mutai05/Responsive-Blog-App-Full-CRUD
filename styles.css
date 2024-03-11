@@ -54,7 +54,7 @@ body {
 }
 
 .section {
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100vw;
 }
 
@@ -429,6 +429,10 @@ input, textarea, select {
     color: var(--color-primary);
 }
 
+/* DASHBOARD */
+
+
+
 /* MEDIA QUERIES MEDIUM DEVICES */
 
 @media screen and (max-width: 1024px) {
@@ -703,4 +707,13 @@ input, textarea, select {
     cursor: pointer;
     transition: var(--transition);
     color: var(--color-white);
+}
+
+.btn.sm {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+}
+
+.btn.danger {
+    background: var(--color-red);
 }
